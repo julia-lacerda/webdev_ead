@@ -1,0 +1,46 @@
+section{
+    width: 850px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+header{
+    width: 848px;
+    height: 100px;
+    background-color: deepskyblue;
+    border: 1px solid white;
+}
+
+nav{
+    width: 848px;
+    height: 50px;
+    background-color: deepskyblue;
+    border: 1px solid white;
+}
+
+#artigo-lateral{
+    float: left;
+    width: 200px;
+    text-align: left;
+    font-size: 20px;
+    height: 400px;
+    background-color: deepskyblue;
+    border: 1px solid white;
+}
+
+.artigo{
+    width: 636px;
+    height: 200px;
+    background-color: deepskyblue;
+    float: left;
+    padding-left: 10px;
+    border: 1px solid white;
+}
+
+footer{
+    width: 848px;
+    height: 50px;
+    float: left;
+    background-color: deepskyblue;
+    border: 1px solid white;
+}
