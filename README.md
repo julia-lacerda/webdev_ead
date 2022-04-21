@@ -7,5 +7,27 @@
 
 Prontinho! Agora vocês podem colocar essas pastas na pasta de estudo de vocês, e abrir no VS Code normalmente :)
 
+Não esqueçam que para rodar o código no terminal, tem que digitar <code> node [nome do arquivo] </code>
+
 <hr>
-<h3> Obs.: O código do dia <b>19/03</b> está incompleto pq tem que dar npm i em algumas coisas, mas eu não lembro quais são. Tenho que perguntar ao professor.</h3>
+
+<h3> Obs.: O código do dia <b>19/03</b> está incompleto pq tem que dar npm i em algumas coisas:</h3>
+<b> 1. </b> npm init (vao dando enter até acabar o processo) <br> 
+<b> 2. </b> npm i express --save <br> 
+<b> 3. </b> npm i ejs --save (aqui vai ter que dar um npm audit fix depois. O próprio terminal vai falar pra vcs fazerem isso) <br> 
+<b> 4. </b> npm i nodemon --save-dev <br>
+    <p> Após baixar, vcs precisam ir em <b>package.json</b> e dentro de "scripts", adicionar a dependência: "dev": "nodemon server.js" </p>
+    <p> Vai ficar algo como: </p>
+
+    <pre>
+    <code>"scripts": { 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+     }, </code>
+     </pre>
+  <b> 5. </b> npm i body-parser --save <br>    
+  <b> 6. </b> npm i mongodb --save 
+  
+  
+
+     
