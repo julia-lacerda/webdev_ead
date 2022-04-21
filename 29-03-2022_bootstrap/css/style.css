@@ -1,0 +1,22 @@
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.meuestilo {
+    /* margin topo e inferior: 20px */
+    /* margin esquerda e direita: 0px*/
+    margin: 20px 0px;
+    padding: 10px;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    /* margin topo e inferior: 0px */
+    /* margin esquerda e direita: auto*/
+    margin: 0px auto;
+    background: DarkSlateBlue;
+    color: floralwhite;
+}
