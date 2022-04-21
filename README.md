@@ -19,13 +19,14 @@ Não esqueçam que para rodar o código no terminal, tem que digitar <code> node
     <p> Após baixar, vcs precisam ir em <b>package.json</b> e dentro de "scripts", adicionar a dependência: "dev": "nodemon server.js" </p>
     <p> Vai ficar algo como: </p>
 
-    <pre>
-    <code>"scripts": { 
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
-     }, </code>
-     </pre>
-  <b> 5. </b> npm i body-parser --save <br>    
+   
+        "scripts": { 
+            "test": "echo \"Error: no test specified\" && exit 1",
+            "dev": "nodemon server.js"
+         }, 
+   
+     
+  <b> 5. </b> npm i body-parser --save     
   <b> 6. </b> npm i mongodb --save 
   
   
