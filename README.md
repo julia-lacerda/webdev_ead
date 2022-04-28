@@ -11,7 +11,7 @@ Não esqueçam que para rodar o código no terminal, tem que digitar <code> node
 
 <hr>
 
-<h3> Obs.: O código do dia <b>19/03</b> está incompleto pq tem que dar npm i em algumas coisas:</h3>
+<h3> Obs.: O código do dia <b>19/04</b> e do <b>27/04</b> está incompleto pq tem que dar npm i em algumas coisas:</h3>
 <b> 1. </b> npm init (vão dando <i>enter</i> até acabar o processo) <br> 
 <b> 2. </b> npm i express --save <br> 
 <b> 3. </b> npm i ejs --save (aqui vai ter que dar um npm audit fix depois. O próprio terminal vai falar pra vcs fazerem isso) <br> 
