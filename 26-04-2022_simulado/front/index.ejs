@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcar horário</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="navbar-brand" href="#">Cabeleireira Maria</a>
+
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link"> Início </a></li>
+                <li class="nav-item"><a href="#" class="nav-link"> Marque seu horário </a></li>
+                <li class="nav-item"> <a href="#" class="nav-link"> Contato </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="main__card">
+            <h2>Registre-se</h2>
+            <p>Preencha o cadastro para reservar um horário no salão!</p>
+            <div class="divide"></div>
+            <br>
+            <form action="/show" method="POST">
+                <label for="nome">Nome completo:</label>
+                <input type="text" placeholder="Nome" name="nome" required>
+
+                <br>
+
+                <label for="data-servico">Data:</label>
+                <input type="date" id="data-servico" name="data-servico" min="2022-04-26" required>
+
+                <br>
+
+                <label for="horario-servico">Horário:</label>
+                <input type="time" name="horario-servico" id="horario-servico" min="08:00" max="18:00" required>
+
+                <br>
+
+                <label for="tipo-servico">Tipo de serviço:</label>
+                <select name="tipo-servico" id="tipo-servico" required>
+                    <option value="manicure">Manicure</option>
+                    <option value="pedicure">Pedicure</option>
+                    <option value="cabelo">Cabelo</option>
+                    <option value="maquiagem">Maquiagem</option>
+                </select>
+
+                <br>
+
+                <div class="radio">
+                    <input type="radio" id="cartao-credito" name="forma-pagamento" value="cartao-credito">
+                    <label for="forma-pagamento">Cartão de crédito</label><br>
+
+                    <input type="radio" id="cartao-debito" name="forma-pagamento" value="cartao-debito">
+                    <label for="forma-pagamento">Cartão de débito</label><br>
+
+                    <input type="radio" id="dinheiro" name="forma-pagamento" value="dinheiro">
+                    <label for="forma-pagamento">Dinheiro</label>
+                </div>
+
+                <div class="submit">
+                    <button type="submit">Submit</button>
+                </div>  
+            </form>
+        </div>
+
+        <aside>
+            <h2>Notícias</h2>
+            <div class="divide"></div>
+
+            <div class="noticia">
+                <h3>
+                    <a
+                        href="https://www.jornalbomdia.com.br/noticia/54627/erebango-curso-de-cabeleireiro-capacita-12-profissionais    ">
+                        Erebango: curso de cabeleireiro capacita 12 profissionais
+                    </a>
+                </h3>
+                <img src="images/Celebração de conclusão do curso.jpeg" alt="">
+                <p>O curso teve duração de seis meses</p>
+            </div>
+            <div class="noticia">
+                <h3>
+                    <a
+                        href="https://www.metropoles.com/brasil/em-sp-cabeleireiro-faz-transformacoes-em-moradores-de-rua-ha-5-anos">
+                        Em SP, cabeleireiro faz transformações em moradores de rua há 5 anos
+                    </a>
+                </h3>
+
+                <img src="images/cabeleireiro2.png" alt="">
+                <p>Fernando, de 30, foi o último que recebeu os cuidados do profissional Leandro Matias. "É incrível
+                    ajudá-los", diz o cabeleireiro</p>
+            </div>
+        </aside>
+    </section>
+
+</body>
+
+</html>

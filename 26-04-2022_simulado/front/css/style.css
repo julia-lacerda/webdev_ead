@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --cor1: #564787;
+    --cor2: #DBCBD8;
+    --cor3: #F2FDFF ;
+    --cor4: #9AD4D6 ;
+    --cor5: #101935 ;
+}
+
+html{
+    background-color: var(--cor3);
+}
+
+header{
+    padding: 16px 0px;
+    background-color: var(--cor1);
+} 
+
+a{
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+h2{
+    font-size: 24px;
+    color: #101935;
+}
+
+h3{
+    margin-top: 10px;
+}
+
+ /* NAVEGAÇÃO */
+
+.navbar-brand{
+    margin: 0px 30px 0px 20px;
+    font-family: 'Rouge Script', cursive;
+    font-size: 32px;
+}
+
+.nav-item{
+    margin:0px 20px;
+}
+
+.nav-item > :hover {
+    color: var(--cor3);
+}
+
+/* SECTION PRINCIPAL */
+
+.main{
+    display: flex;
+    margin: 10px 0px;
+    height: 100vh;
+    background-color: var(--cor3);
+    justify-content: center;
+    
+}
+
+/* DIV ESQUERDA */
+
+.main__card{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor4);
+    padding: 10px;
+    width: 700px;
+    height: 610px;
+    border-radius: 10px;
+}
+
+.divide{
+    background-color: #F2FDFF;
+    padding: 0.2px;
+    margin: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio > label{
+    color: #101935;
+    margin: 0px 20px 0px 0px;
+}
+
+.radio > input{
+    margin: 5px;
+
+}
+
+.submit{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.submit > button {
+    padding: 10px;
+    background-color: #101935;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+/* ASIDE */
+
+aside{
+    margin: 1px;
+    background-color: #9AD4D6;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 610px;
+}
+
+aside img{
+    width: 100%;
+    margin: 2px;
+}
+
+.noticia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px 4px 10px;
+    margin: 10px 8px;
+    background-color: #F2FDFF;
+    border-radius: 10px;
+}
+
+.noticia > p {
+    font-size: 12px;
+}
+
+.noticia a {
+    color: black;
+}
+
+.noticia a:hover{
+    text-decoration: underline;
+}
